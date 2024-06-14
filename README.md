@@ -70,8 +70,6 @@ A simple Laravel-based web application designed to manage tasks efficiently. It 
    cp .env.example .env
    ```
 
-   Update the `.sequelize` file with the proper configuration parameters.
-
 4. **Generate App Key**
 
    ```bash
@@ -91,8 +89,6 @@ A simple Laravel-based web application designed to manage tasks efficiently. It 
    ```bash
    php artisan db:seed --class=TasksTableSeeder
    ```
-
-   *Note: Ensure you have created a seeder with the name `TasksTableSeeder`.*
 
 7. **Start the Application with Laravel Sail**
 
@@ -124,4 +120,4 @@ Tests can be executed by running
 
 ## Conclusion
 
-This task management application leverages Laravel's robust framework capabilities alongside Vue.js to provide a dynamic and responsive user interface. By encapsulating functionality in Services and DTOs, the code maintains clear separation of concerns and high readability. It's designed to be scalable and easily extendable for future enhancements such as adding user authentication or integrating with external APIs for enhanced project management capabilities.
+This task management application leverages Laravel's framework capabilities alongside Vue.js to provide a dynamic and responsive user interface. By using functionality in Services and DTOs, the code maintains clear separation of concerns and high readability. It's designed to be scalable and easily extendable for future enhancements such as adding user authentication or integrating with external APIs for enhanced project management capabilities.
